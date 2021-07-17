@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react';
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -6,3 +7,5 @@ export const Wrapper = styled.div`
     background: ${theme.colors.mainBg};
   `}
 `;
+
+
